@@ -27,7 +27,8 @@ img {
   height: auto;
   flex-shrink: 0;
 }
-/* header */
+
+/* #region header */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -106,8 +107,9 @@ img {
 .address-item-a:focus {
   color: #404bbf;
 }
+/* #endregion */
 
-/* order-service */
+/* #region order-service */
 .order-service {
   padding: 188px 0;
 }
@@ -154,7 +156,9 @@ img {
   background-color: #404bbf;
 }
 
-/* Qualities */
+/* #endregion */
+
+/* #region Qualities */
 .qualities {
   padding: 120px 0;
 }
@@ -203,8 +207,9 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
 }
+/* #endregion */
 
-/* our-team */
+/* #region our-team */
 
 .our-team {
   padding: 120px 0;
@@ -264,7 +269,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
-/*  Our Portfolio */
+
+/* #endregion */
+
+/* #region Our Portfolio */
 .our-portfolio {
   padding: 120px 0;
 }
@@ -325,7 +333,9 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* footer */
+/* #endregion */
+
+/* #region footer */
 
 .footer {
   padding: 100px 0;
@@ -357,3 +367,5 @@ img {
 
   max-width: 264px;
 }
+
+/* #endregion */
