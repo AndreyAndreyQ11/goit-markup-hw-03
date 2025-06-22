@@ -107,6 +107,7 @@ img {
 .address-item-a:focus {
   color: #404bbf;
 }
+
 /* order-service */
 .order-service {
   padding: 188px 0;
@@ -123,8 +124,7 @@ img {
   text-align: center;
   color: #fff;
 
-  max-width: 500px;
-  border: 1px solid rgb(239, 13, 13);
+  max-width: 496px;
 }
 
 .order-service-button {
