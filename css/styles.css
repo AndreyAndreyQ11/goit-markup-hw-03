@@ -178,13 +178,14 @@ body {
   padding: 120px 156px;
 }
 .qualities-item {
+  width: calc((100% - 72px) / 4);
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   border: 1px solid rgb(0, 0, 0);
 
-  width: calc((100% - 72px) / 4);
   height: 104px;
 }
 .qualities-item-heading {
@@ -229,14 +230,13 @@ body {
   gap: 24px;
 }
 .our-team-item {
-  width: calc((100% - 72px) / 4);
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 32px;
 
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
 
@@ -300,9 +300,12 @@ body {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
 }
 .our-portfolio-items-img {
+}
+
+.div-employee {
+  padding: 32px 0;
 }
 .our-portfolio-items-heading {
   font-weight: 500;
