@@ -37,7 +37,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 76px;
   border: 1px solid rgb(0, 0, 0);
 }
 .logo {
@@ -48,6 +47,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-span {
@@ -59,6 +59,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+
+.header-item {
+  padding: 24px 0;
 }
 .header-item-a {
   font-weight: 500;
