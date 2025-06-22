@@ -12,7 +12,6 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-
   padding: 0 15px;
 }
 .bg-navyblue {
@@ -32,9 +31,9 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .div-header {
-  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
