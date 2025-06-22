@@ -151,10 +151,20 @@ body {
 
 /* Qualities */
 .qualities {
+  padding: 120px 0;
 }
-.qualities-heading {
+.visually-hidden {
   position: absolute;
-  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .qualities-list {
@@ -306,7 +316,7 @@ body {
 /* footer */
 
 .footer {
-  /* padding: 100px 0; */
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -319,7 +329,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-top: 100px;
   margin-bottom: 16px;
 }
 .footer-logo-span {
@@ -335,5 +344,4 @@ body {
   color: #f4f4fd;
 
   max-width: 264px;
-  margin-bottom: 100px;
 }
