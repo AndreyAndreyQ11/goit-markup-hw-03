@@ -30,10 +30,10 @@ img {
 /* header */
 
 .header {
-  max-width: 1440px;
   border-bottom: 1px solid #e7e9fc;
 }
 .div-header {
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,6 +156,7 @@ img {
 
 /* Qualities */
 .qualities {
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -176,7 +177,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding: 120px 0;
 }
 .qualities-item {
   width: calc((100% - 72px) / 4);
@@ -294,10 +294,10 @@ img {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
 }
 .div-portfolio {
   width: 100%;
+
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
