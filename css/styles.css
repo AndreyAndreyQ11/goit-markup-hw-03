@@ -28,9 +28,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  margin: 24px auto;
-  border: 1px solid rgb(235, 18, 18);
 }
 
 .header-navigation {
@@ -62,9 +59,10 @@ body {
 }
 
 .header-item {
-  padding: 24px 0;
 }
 .header-item-a {
+  padding: 24px 0;
+
   font-weight: 500;
   font-size: 16px;
 
