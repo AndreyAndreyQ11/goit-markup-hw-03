@@ -282,15 +282,17 @@ body {
 }
 
 /* footer */
+
+.footer {
+}
 .container {
   padding: 0 156px;
   max-width: 1440px;
   border: 1px solid rgb(0, 0, 0);
 }
-.navy-blue {
+.bg-navyblue {
   background: #2e2f42;
 }
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
