@@ -22,6 +22,7 @@ body {
   background: #2e2f42;
 }
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .div-header {
   display: flex;
