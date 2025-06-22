@@ -21,6 +21,11 @@ body {
   background: #f4f4fd;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* header */
 
 .header {
@@ -105,15 +110,11 @@ body {
 /* order-service */
 .order-service {
   padding: 188px 0;
-
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 48px;
-  flex-direction: column; */
 }
 
 .order-service-heading {
+  margin: 0 auto;
+
   font-weight: 700;
   font-size: 56px;
 
@@ -122,11 +123,13 @@ body {
   text-align: center;
   color: #fff;
 
-  display: inline;
-  max-width: 496px;
+  max-width: 500px;
+  border: 1px solid rgb(239, 13, 13);
 }
 
 .order-service-button {
+  margin: 0 auto;
+  margin-top: 24px;
   display: block;
   min-width: 169px;
   height: 56px;
